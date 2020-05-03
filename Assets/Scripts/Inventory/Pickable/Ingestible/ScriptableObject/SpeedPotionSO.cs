@@ -15,8 +15,8 @@ public class SpeedPotionSO : IngestibleSO
      */
     protected override void Initialize()
     {
-        _modifier = 5f; 
-        _modifierPeriod = 10f;
+        _modifier = 1.5f; 
+        _modifierPeriod = 7f;
     }
 
     /**
