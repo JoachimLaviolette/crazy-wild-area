@@ -15,7 +15,7 @@ public class GameHandler : MonoBehaviour
 
     private static float _MAX_RADIUS;
 
-    private const int _ENTITY_MAX_SPAWNS = 30;
+    private const int _ENTITY_MAX_SPAWNS = 80;
     private const int _BIRD_MAX_SPAWNS = 50;
     private const int _CLOUD_MAX_SPAWNS = 10;
     private const int _POTION_MAX_SPAWNS = 45;
@@ -26,9 +26,12 @@ public class GameHandler : MonoBehaviour
     private const int _HUNTING_RIFLE_MAX_SPAWNS = 30;
     private const int _ENFORCER_MAX_SPAWNS = 20;
     private const int _GRENADE_MAX_SPAWNS = 40;
+
     private const float _SPACE_FACTOR = 10f;
     private const float _SPAWN_BIRD_X = -180f;
+    private const float _SPAWN_BIRD_Y = 80f;
     private const float _SPAWN_CLOUD_X = -180f;
+    private const float _SPAWN_CLOUD_Y = 100f;
     private const float _MIN_WALK_SPEED = 5f;
     private const float _MAX_WALK_SPEED = 10f;
     private const float _MIN_RUN_SPEED = 15f;

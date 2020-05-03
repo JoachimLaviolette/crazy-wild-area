@@ -1041,6 +1041,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f03c30c985ef1f44b9c471a8eae6eae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interactionRadius: 5
+  _interactionZone: {fileID: 2609250105155779195}
   _scriptableItem: {fileID: 11400000, guid: 696fd06a8a8f5f541beb40c7179dded1, type: 2}
   _shootingZone: {fileID: 4219332428036730798}
 --- !u!65 &4651387527142930665
@@ -1080,9 +1082,9 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 1
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!1 &5072922358204605967
 GameObject:
